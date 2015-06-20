@@ -17,9 +17,6 @@
 
 TARGET_OTA_ASSERT_DEVICE := SM-N900V,hltevzw
 
-# Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := hltevzw
-
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := unicornblood_hlte_vzw_defconfig
 
