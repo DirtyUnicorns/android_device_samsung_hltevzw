@@ -56,8 +56,8 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
 
     if (strstr(bootloader, "N900V")) {
         /* hltevzw */
-        property_set("ro.build.fingerprint", "samsung/hltevzw/hltevzw:4.4.2/KOT49H/N900VVRUCNC2:user/release-keys");
-        property_set("ro.build.description", "hltevzw-user 4.4.2 KOT49H N900VVRUCNC2 release-keys");
+        property_set("ro.build.fingerprint", "samsung/hltevzw/hltevzw:5.1.1/LVY48F:user/release-keys");
+        property_set("ro.build.description", "hltevzw-user 5.1.1/LVY48F release-keys");
         property_set("ro.product.model", "SM-N900V");
         property_set("ro.product.device", "hltevzw");
         cdma_properties("0", "311480", "Verizon");
